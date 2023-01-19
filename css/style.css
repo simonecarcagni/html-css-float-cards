@@ -3,3 +3,62 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Rowdies', cursive;
+    width: 1170px;
+    margin: auto;
+}
+
+h1 {
+    color: #e53070;
+    margin-bottom: 25px;
+}
+
+h3 {
+    display: inline-block;    
+}
+
+header {
+    text-align: center;
+    font-weight: bold;
+    margin: 35px 0px;
+}
+
+.clearfix::after {
+    display: table;
+    clear: both;
+    content: '';
+}
+
+.icon {
+    height: 100px;
+    width: calc(100% / 3 - 30px);
+    background-color: #0f0e17;
+    float: left;
+    margin: 30px 15px;
+    box-shadow: 0px 0px 10px #0f0e17; 
+}
+
+.img {
+   height: 100%;
+   float: left;
+}
+
+.credential {
+    color: white;
+    vertical-align: middle;
+    height: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(40, 40, 255);
+    display: inline-block;
+}
+
+.credential-text {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
